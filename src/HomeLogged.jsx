@@ -8,7 +8,7 @@ const HomeLogged = () => {
                     <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
 
                     <nav>
-                        <Link to="/home_logged">Home</Link>
+                        <Link to="/HomeLogged">Home</Link>
                         <Link to="/product">Product</Link>
                         <Link to="/community">Community</Link>
                         <Link to="/about_us_logged">About Us</Link>

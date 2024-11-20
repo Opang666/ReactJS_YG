@@ -7,7 +7,7 @@ const Home = () => {
                 <div className="navbar">
                     <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
                     <nav>
-                        <Link to="/">Home</Link>
+                        <Link to="/home">Home</Link>
                         <Link to="/about-us">About Us</Link>
                         <Link to="/login" className="login-button">Log In</Link>
                     </nav>
