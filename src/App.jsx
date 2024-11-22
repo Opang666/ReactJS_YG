@@ -10,6 +10,8 @@ import './style/VerifikasiEmail.css';
 import './style/HomeLogged.css';
 import './style/PrivacyPolicy.css';
 import './style/CookiesPolicy.css';
+import './style/Payment.css';
+import './style/Payment2.css';
 
 import AboutUs from './AboutUs';
 import Home from './Home';
@@ -22,6 +24,8 @@ import VerifikasiEmail from './VerifikasiEmail';
 import HomeLogged from './HomeLogged';
 import PrivacyPolicy from './PrivacyPolicy';
 import CookiesPolicy from './CookiesPolicy';
+import Payment from './Payment';
+import Payment2 from './Payment2';
 
 function App() {
   return (
@@ -38,6 +42,8 @@ function App() {
         <Route path='/HomeLogged' element={< HomeLogged />} />
         <Route path='/PrivacyPolicy' element={< PrivacyPolicy />} />
         <Route path='/CookiesPolicy' element={< CookiesPolicy />} />
+        <Route path='/Payment' element={< Payment />} />
+        <Route path='/Payment2' element={< Payment2 />} />
       </Routes>
     </div>
   );
