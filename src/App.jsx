@@ -12,6 +12,7 @@ import './style/PrivacyPolicy.css';
 import './style/CookiesPolicy.css';
 import './style/Payment.css';
 import './style/Payment2.css';
+import './style/Tracking.css';
 
 import AboutUs from './AboutUs';
 import Home from './Home';
@@ -26,6 +27,7 @@ import PrivacyPolicy from './PrivacyPolicy';
 import CookiesPolicy from './CookiesPolicy';
 import Payment from './Payment';
 import Payment2 from './Payment2';
+import Tracking from './Tracking';
 
 function App() {
   return (
@@ -44,6 +46,7 @@ function App() {
         <Route path='/CookiesPolicy' element={< CookiesPolicy />} />
         <Route path='/Payment' element={< Payment />} />
         <Route path='/Payment2' element={< Payment2 />} />
+        <Route path='/Tracking' element={< Tracking />} />
       </Routes>
     </div>
   );
