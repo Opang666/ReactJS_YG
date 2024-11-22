@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./style/CookiesPolicy.css"
 
 const CookiesPolicy = () => {
     return (

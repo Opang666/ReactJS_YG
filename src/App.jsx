@@ -1,10 +1,12 @@
 import { Routes, Route, } from 'react-router-dom';
+
 import './style/AboutUs.css';
 import './style/Home.css';
 import './style/Login.css';
 import './style/Reset.css';
-import './style/ResetNext.css';
 import './style/Regis.css';
+import './style/ResetNext.css';
+import './style/VerifikasiEmail.css';
 import './style/HomeLogged.css';
 import './style/PrivacyPolicy.css';
 import './style/CookiesPolicy.css';

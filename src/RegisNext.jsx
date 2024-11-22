@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./style/RegisNext.css";
 
 const togglePassword = (id) => {
     const input = document.getElementById(id);
