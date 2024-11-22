@@ -4,7 +4,10 @@ import './style/Home.css';
 import './style/Login.css';
 import './style/Reset.css';
 import './style/ResetNext.css';
-import './style/Regis.css'
+import './style/Regis.css';
+import './style/HomeLogged.css';
+import './style/PrivacyPolicy.css';
+import './style/CookiesPolicy.css';
 
 import AboutUs from './AboutUs';
 import Home from './Home';
@@ -15,6 +18,8 @@ import Regis from './Regis';
 import RegisNext from './RegisNext';
 import VerifikasiEmail from './VerifikasiEmail';
 import HomeLogged from './HomeLogged';
+import PrivacyPolicy from './PrivacyPolicy';
+import CookiesPolicy from './CookiesPolicy';
 
 function App() {
   return (
@@ -29,6 +34,8 @@ function App() {
         <Route path='/RegisNext' element={< RegisNext />} />
         <Route path='/VerifikasiEmail' element={< VerifikasiEmail />} />
         <Route path='/HomeLogged' element={< HomeLogged />} />
+        <Route path='/PrivacyPolicy' element={< PrivacyPolicy />} />
+        <Route path='/CookiesPolicy' element={< CookiesPolicy />} />
       </Routes>
     </div>
   );
