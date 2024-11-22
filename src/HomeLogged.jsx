@@ -10,7 +10,7 @@ const HomeLogged = () => {
 
                     <nav>
                         <Link to="/HomeLogged">Home</Link>
-                        <Link to="/product">Product</Link>
+                        <Link to="/Product">Product</Link>
                         <Link to="/community">Community</Link>
                         <Link to="/about_us_logged">About Us</Link>
                         <Link to="/contact">Contact Us</Link>
@@ -140,8 +140,8 @@ const HomeLogged = () => {
             <footer>
                 <div className="footer-links">
                     <Link to="#">Terms of Use</Link>
-                    <Link to="#">Privacy Policy</Link>
-                    <Link to="#">Cookie Policy</Link>
+                    <Link to="/PrivacyPolicy">Privacy Policy</Link>
+                    <Link to="/CookiesPolicy">Cookie Policy</Link>
                     <Link to="#">Announcements</Link>
                 </div>
                 <div className="footer-info">

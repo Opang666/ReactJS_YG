@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import "./style/VerifikasiEmail.css";
+import "./style/Login.css";
 
 const VerifikasiEmail = () => {
     return (
@@ -45,8 +45,8 @@ const VerifikasiEmail = () => {
             <footer>
                 <div className="footer-links">
                     <Link to="/terms">Terms of Use</Link>
-                    <Link to="/privacy">Privacy Policy</Link>
-                    <Link to="/cookies">Cookie Policy</Link>
+                    <Link to="/PrivacyPolicy">Privacy Policy</Link>
+                    <Link to="/CookiesPolicy">Cookie Policy</Link>
                     <Link to="/announcements">Announcements</Link>
                 </div>
 

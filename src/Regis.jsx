@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./style/Regis.css";
+import "./style/Login.css";
 
 const Regis = () => {
     return (
@@ -35,8 +35,8 @@ const Regis = () => {
             <footer>
                 <div className="footer-links">
                     <a href="#">Terms of Use</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Cookie Policy</a>
+                    <Link to="/PrivacyPolicy">Privacy Policy</Link>
+                    <Link to="/CookiesPolicy">Cookie Policy</Link>
                     <a href="#">Announcements</a>
                 </div>
                 <div className="footer-info">
