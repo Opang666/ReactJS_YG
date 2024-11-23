@@ -1,6 +1,8 @@
+
 import { Routes, Route, } from 'react-router-dom';
 
 import './style/AboutUs.css';
+import './style/AboutusLogged.css';
 import './style/Home.css';
 import './style/Login.css';
 import './style/Reset.css';
@@ -15,8 +17,10 @@ import './style/Payment2.css';
 import './style/Tracking.css';
 import './style/Transaction.css';
 import './style/Review.css';
+import './style/DetailsItem.css';
 
 import AboutUs from './AboutUs';
+import AboutusLogged from './AboutusLogged';
 import Home from './Home';
 import Login from './Login';
 import Reset from './Reset';
@@ -32,14 +36,16 @@ import Payment2 from './Payment2';
 import Tracking from './Tracking';
 import Transaction from './Transaction';
 import Review from './Review';
+import DetailsItem from './DetailsItem';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/home" element={< Home />} />
-        <Route path="/about-us" element={< AboutUs />} />
-        <Route path="/login" element={< Login />} />
+        <Route path="/Home" element={< Home />} />
+        <Route path="/About-us" element={< AboutUs />} />
+        <Route path="/AboutusLogged" element={< AboutusLogged />} />
+        <Route path="/Login" element={< Login />} />
         <Route path="/Reset" element={< Reset />} />
         <Route path="/ResetNext" element={< ResetNext />} />
         <Route path="/Regis" element={< Regis />} />
@@ -53,6 +59,7 @@ function App() {
         <Route path='/Tracking' element={< Tracking />} />
         <Route path='/Transaction' element={< Transaction />} />
         <Route path='/Review' element={< Review />} />
+        <Route path='/DetailsItem' element={< DetailsItem />} />
       </Routes>
     </div>
   );

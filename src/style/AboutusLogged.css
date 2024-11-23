@@ -20,10 +20,10 @@ header {
 
 
 .navbar {
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
     width: 100%;
 }
 
@@ -36,7 +36,6 @@ nav {
     align-items: center;
 }
 
-
 nav a {
     margin-right: 15px;
     color: #323232;
@@ -47,7 +46,7 @@ nav a {
 .login-button {
     background-color: #323232;
     color: #fff;
-    padding: 5px 15px;
+    padding: 8px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
