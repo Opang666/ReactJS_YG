@@ -4,6 +4,7 @@ import "./style/Login.css";
 const Regis = () => {
     return (
         <>
+        <body>
             <header>
                 <img src="/public/images/img/logo_YG.png" alt="Brand Logo" className="logo" />
             </header>
@@ -45,6 +46,7 @@ const Regis = () => {
                     <p>© BRAND COMPANY Inc.</p>
                 </div>
             </footer>
+        </body>
         </>
     );
 }

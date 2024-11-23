@@ -3,6 +3,7 @@ import "./style/Payment.css";
 const Payment = () => {
   return (
     <>
+    <body>
       <header>
         <div className="navbar">
           {/* Gunakan path relatif atau absolute yang benar */}
@@ -92,6 +93,7 @@ const Payment = () => {
           <p>© BRAND COMPANY Inc.</p>
         </div>
       </footer>
+    </body>
     </>
   );
 };

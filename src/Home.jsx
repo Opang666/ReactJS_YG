@@ -4,6 +4,7 @@ import "./style/Home.css";
 const Home = () => {
     return (
         <>
+        <body>
             <header>
                 <div className="navbar">
                     <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
@@ -117,6 +118,7 @@ const Home = () => {
                     <p>© BRAND COMPANY Inc.</p>
                 </div>
             </footer>
+        </body>
         </>
     );
 };

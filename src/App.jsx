@@ -14,6 +14,7 @@ import './style/Payment.css';
 import './style/Payment2.css';
 import './style/Tracking.css';
 import './style/Transaction.css';
+import './style/Review.css';
 
 import AboutUs from './AboutUs';
 import Home from './Home';
@@ -30,6 +31,7 @@ import Payment from './Payment';
 import Payment2 from './Payment2';
 import Tracking from './Tracking';
 import Transaction from './Transaction';
+import Review from './Review';
 
 function App() {
   return (
@@ -50,6 +52,7 @@ function App() {
         <Route path='/Payment2' element={< Payment2 />} />
         <Route path='/Tracking' element={< Tracking />} />
         <Route path='/Transaction' element={< Transaction />} />
+        <Route path='/Review' element={< Review />} />
       </Routes>
     </div>
   );

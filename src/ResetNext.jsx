@@ -14,6 +14,7 @@ const ResetNext = () => {
 
     return (
         <>
+        <body>
             <header>
                 <img src="/public/images/img/logo_YG.png" alt="Brand Logo" className="logo" />
             </header>
@@ -91,6 +92,7 @@ const ResetNext = () => {
                     <p>© BRAND COMPANY Inc.</p>
                 </div>
             </footer>
+        </body>
         </>
     );
 };

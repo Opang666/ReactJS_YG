@@ -4,6 +4,7 @@ import "./style/CookiesPolicy.css"
 const CookiesPolicy = () => {
     return (
         <>
+        <body>
             <header>
                 <div className="navbar">
                     <img
@@ -136,6 +137,7 @@ const CookiesPolicy = () => {
                 </p>
                 <p>©️ BRAND COMPANY Inc.</p>
             </footer>
+        </body>
         </>
     );
 };

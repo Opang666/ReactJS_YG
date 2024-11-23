@@ -3,6 +3,7 @@ import "./style/Transaction.css"
 const Transaction = () => {
     return (
         <>
+        <body>
             <header>
                 <div className="navbar">
                     <img
@@ -142,6 +143,7 @@ const Transaction = () => {
                     <p>© BRAND COMPANY Inc.</p>
                 </div>
             </footer>
+        </body>
         </>
     );
 };

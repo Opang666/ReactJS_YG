@@ -4,6 +4,7 @@ import "./style/AboutUs.css";
 const AboutUs = () => {
     return (
         <>
+        <body>
             <header>
                 <div className="navbar">
                     <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
@@ -48,6 +49,7 @@ const AboutUs = () => {
                     <p>© BRAND COMPANY Inc.</p>
                 </div>
             </footer>
+        </body>
         </>
     );
 };

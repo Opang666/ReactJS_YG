@@ -4,6 +4,7 @@ import "./style/HomeLogged.css"
 const HomeLogged = () => {
     return (
         <>
+        <body>
             <header>
                 <div className="navbar">
                     <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
@@ -150,6 +151,7 @@ const HomeLogged = () => {
                     <p>© BRAND COMPANY Inc.</p>
                 </div>
             </footer>
+        </body>
         </>
     );
 };

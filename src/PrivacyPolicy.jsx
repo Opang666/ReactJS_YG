@@ -4,6 +4,7 @@ import "./style/PrivacyPolicy.css"
 const PrivacyPolicy = () => {
     return (
         <>
+        <body>
             <header>
                 <div className="navbar">
                     <img
@@ -173,6 +174,7 @@ const PrivacyPolicy = () => {
                 </p>
                 <p>©️ BRAND COMPANY Inc.</p>
             </footer>
+        </body>
         </>
     );
 };

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 const Payment2 = () => {
     return (
         <>
+        <body>
             <header>
                 <div className="navbar">
                     <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
@@ -52,6 +53,7 @@ const Payment2 = () => {
                     <p>© BRAND COMPANY Inc.</p>
                 </div>
             </footer>
+        </body>
         </>
     );
 };
