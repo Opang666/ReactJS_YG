@@ -13,6 +13,7 @@ import './style/CookiesPolicy.css';
 import './style/Payment.css';
 import './style/Payment2.css';
 import './style/Tracking.css';
+import './style/Transaction.css';
 
 import AboutUs from './AboutUs';
 import Home from './Home';
@@ -28,6 +29,7 @@ import CookiesPolicy from './CookiesPolicy';
 import Payment from './Payment';
 import Payment2 from './Payment2';
 import Tracking from './Tracking';
+import Transaction from './Transaction';
 
 function App() {
   return (
@@ -47,6 +49,7 @@ function App() {
         <Route path='/Payment' element={< Payment />} />
         <Route path='/Payment2' element={< Payment2 />} />
         <Route path='/Tracking' element={< Tracking />} />
+        <Route path='/Transaction' element={< Transaction />} />
       </Routes>
     </div>
   );
