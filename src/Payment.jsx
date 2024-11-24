@@ -3,15 +3,9 @@ import "./style/Payment.css";
 const Payment = () => {
   return (
     <>
-    <body>
       <header>
         <div className="navbar">
-          {/* Gunakan path relatif atau absolute yang benar */}
-          <img
-            src="/images/img/logo_YG.png"
-            alt="YG Entertainment Logo"
-            className="logo"
-          />
+          <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
           <nav>
             <a href="home_logged.html">Home</a>
             <a href="product.html">Product</a>
@@ -21,30 +15,15 @@ const Payment = () => {
           </nav>
         </div>
         <button className="user-button">
-          <img
-            src="/images/img/profile.png"
-            alt="User Icon"
-            className="icon-img"
-          />{" "}
-          Nurzaba
+          <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
         </button>
         <div className="dropdown">
           <ul>
-            <li>
-              <a href="Cart.html">Cart</a>
-            </li>
-            <li>
-              <a href="#">Poin</a>
-            </li>
-            <li>
-              <a href="#">Transaction</a>
-            </li>
-            <li>
-              <a href="#">Profile</a>
-            </li>
-            <li>
-              <a href="#">Log Out</a>
-            </li>
+            <li><a href="Cart.html">Cart</a></li>
+            <li><a href="#">Poin</a></li>
+            <li><a href="#">Transaction</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Log Out</a></li>
           </ul>
         </div>
       </header>
@@ -58,14 +37,12 @@ const Payment = () => {
             <img
               src="/images/img/warning.png"
               alt="Warning"
+              style={{ width: "16px", verticalAlign: "middle", marginRight: "5px" }}
             />
             Virtual Account is only valid for 1 hour
           </p>
           <div className="button-group">
-            <button
-              className="copy-button"
-              onClick={() => (window.location.href = "payment_2.html")}
-            >
+            <button className="copy-button" onClick={() => window.location.href = 'payment_2.html'}>
               Copy
             </button>
             <button className="close-button">Close</button>
@@ -93,7 +70,6 @@ const Payment = () => {
           <p>© BRAND COMPANY Inc.</p>
         </div>
       </footer>
-    </body>
     </>
   );
 };

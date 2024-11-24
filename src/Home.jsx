@@ -11,7 +11,7 @@ const Home = () => {
                     <nav>
                         <Link to="/home">Home</Link>
                         <Link to="/about-us">About Us</Link>
-                        <Link to="/login">Log In</Link>
+                        <Link to="/login" className="login-button">Log In</Link>
                     </nav>
                 </div>
             </header>
@@ -24,7 +24,9 @@ const Home = () => {
                         <p>Official platform provides original YG Entertainment merchandise from Korea for fans in Indonesia. Find exclusive products and the latest concert schedules for YG artists here!</p>
                     </div>
                 </section>
+            </main>
 
+            <main>
                 <section className="upcoming-news">
                     <h2 style={{ paddingLeft: "2%" }}>Upcoming News</h2>
                     <a href="#" className="more-link">More</a>
@@ -39,7 +41,9 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+            </main>
 
+            <main>
                 <section className="upcoming-concerts">
                     <h2 style={{ paddingLeft: "2%" }}>Upcoming Concerts</h2>
                     <a href="more_concert.html" className="more-link">More</a>
@@ -54,7 +58,9 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+            </main>
 
+            <main>
                 <section className="artist-section">
                     <h2 style={{ paddingLeft: "2%" }}>Looking for artists?</h2>
                     <div className="artist-grid">

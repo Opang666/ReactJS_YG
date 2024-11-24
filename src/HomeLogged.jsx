@@ -41,7 +41,9 @@ const HomeLogged = () => {
                         <p>Official platform providing original YG Entertainment merchandise from Korea for fans in Indonesia. Find exclusive products and the latest concert schedules for YG artists here!</p>
                     </div>
                 </section>
+            </main>
 
+            <main>
                 <section className="upcoming-news">
                     <h2 style={{ paddingLeft: "2%" }}>Upcoming News</h2>
                     <Link to="#" className="more-link">More</Link>
@@ -56,7 +58,9 @@ const HomeLogged = () => {
                         </div>
                     </div>
                 </section>
+            </main>
 
+            <main>
                 <section className="upcoming-concerts">
                     <h2 style={{ paddingLeft: "2%" }}>Upcoming Concerts</h2>
                     <Link to="/more_concert_logged" className="more-link">More</Link>
@@ -71,7 +75,9 @@ const HomeLogged = () => {
                         </div>
                     </div>
                 </section>
+            </main>
 
+            <main>
                 <section className="new-merch">
                     <h2 style={{ paddingLeft: "2%" }}>New Merch</h2>
                     <Link to="#" className="more-link">More</Link>
@@ -86,7 +92,9 @@ const HomeLogged = () => {
                         </div>
                     </div>
                 </section>
-
+            </main>
+            
+            <main>
                 <section className="artist-section">
                     <h2 style={{ paddingLeft: "2%" }}>Looking for artists?</h2>
                     <div className="artist-grid">
