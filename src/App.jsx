@@ -1,4 +1,3 @@
-
 import { Routes, Route, } from 'react-router-dom';
 
 import './style/AboutUs.css';
@@ -18,6 +17,8 @@ import './style/Tracking.css';
 import './style/Transaction.css';
 import './style/Review.css';
 import './style/DetailsItem.css';
+import './style/Concert.css';
+import './style/ArtistDetail.css';
 
 import AboutUs from './AboutUs';
 import AboutusLogged from './AboutusLogged';
@@ -37,6 +38,10 @@ import Tracking from './Tracking';
 import Transaction from './Transaction';
 import Review from './Review';
 import DetailsItem from './DetailsItem';
+import Concert from './Concert';
+import ConcertLogged from './ConcertLogged';
+import ArtistDetail from './ArtistDetail';
+import ArtistDetailLogged from './ArtistDetailLogged';
 
 function App() {
   return (
@@ -60,6 +65,10 @@ function App() {
         <Route path='/Transaction' element={< Transaction />} />
         <Route path='/Review' element={< Review />} />
         <Route path='/DetailsItem' element={< DetailsItem />} />
+        <Route path='/Concert' element={< Concert />} />
+        <Route path='/ConcertLogged' element={< ConcertLogged />} />
+        <Route path='/ArtistDetail' element={< ArtistDetail />} />
+        <Route path='/ArtistDetailLogged' element={< ArtistDetailLogged />} />
       </Routes>
     </div>
   );

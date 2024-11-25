@@ -121,6 +121,11 @@
     .dropdown ul li:last-child {
       border-bottom: none;
     }
+
+    .isi {
+      margin-left: 60px;
+      padding: 30px;
+    }
     
   
   .container {

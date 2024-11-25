@@ -1,106 +1,143 @@
+import { Link } from "react-router-dom";
+
 const DetailsItem = () => {
     return (
         <>
             <header>
-                <div className="navbar">
-                    <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
+            <div className="navbar">
+                    <img
+                        src="/public/images/img/logo_YG.png"
+                        alt="YG Entertainment Logo"
+                        className="logo"
+                    />
+
                     <nav>
-                        <a href="home_logged.html">Home</a>
-                        <a href="product.html">Product</a>
-                        <a href="community.html">Community</a>
-                        <a href="about_us_logged.html">About Us</a>
-                        <a href="contact.html">Contact Us</a>
+                        <Link to="/HomeLogged">Home</Link>
+                        <Link to="/product">Product</Link>
+                        <Link to="/community">Community</Link>
+                        <Link to="/about_us_logged">About Us</Link>
+                        <Link to="/contact">Contact Us</Link>
                     </nav>
                 </div>
+
                 <button className="user-button">
-                    <img src="/public/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
+                    <img
+                        src="/public/images/img/profile.png"
+                        alt="User Icon"
+                        className="icon-img"
+                    />{" "}
+                    Nurzaba
                 </button>
-                
+
                 <div className="dropdown">
                     <ul>
-                        <li><a href="Cart.html">Cart</a></li>
-                        <li><a href="poin.html">Poin</a></li>
-                        <li><a href="transaction.html">Transaction</a></li>
-                        <li><a href="#">Profile</a></li>
-                        <li><a href="#">Log Out</a></li>
+                        <li>
+                            <Link to="/cart">Cart</Link>
+                        </li>
+                        <li>
+                            <Link to="#">Poin</Link>
+                        </li>
+                        <li>
+                            <Link to="#">Transaction</Link>
+                        </li>
+                        <li>
+                            <Link to="#">Profile</Link>
+                        </li>
+                        <li>
+                            <Link to="#">Log Out</Link>
+                        </li>
                     </ul>
                 </div>
             </header>
 
-            <div className="order-section">
-                <h3>Your Order</h3>
-                <div className="order-item">
-                    <img src="/public/images/img/lalisa_album.png" alt="LALISA- PHOTOBOOK [SPECIAL EDITION]" />
-                    <div className="order-details">
-                        <p><strong>LISA -LALISA- PHOTOBOOK [SPECIAL EDITION]</strong></p>
-                        <p>Quantity: 1</p>
+
+
+            <main>
+                <div className="order-section">
+                    <h3>Your Order</h3>
+                    <div className="order-item">
+                        <img src="/public/images/img/lalisa_album.png" alt="LALISA- PHOTOBOOK [SPECIAL EDITION]" />
+                        <div className="order-details">
+                            <p><strong>LISA -LALISA- PHOTOBOOK [SPECIAL EDITION]</strong></p>
+                            <p>Quantity: 1</p>
+                        </div>
+                        <p className="price">Rp615.000</p>
                     </div>
-                    <p className="price">Rp615.000</p>
                 </div>
-            </div>
+            </main>
 
-            <hr />
-
-            <div className="total-price">
-                <p>Total (1 Item)</p>
-                <p>Rp615.000</p>
-            </div>
-
-            <div className="info-section">
-                <div className="info-block">
-                    <h4>Customer</h4>
-                    <p>Muchamad Nurza Bayu Dhantono</p>
-                    <p>muchamadnurzaba24@gmail.com</p>
-                    <p>+62 895-3965-90113</p>
+            <main>
+                <div className="total-price">
+                    <p>Total (1 Item)</p>
+                    <p>Rp615.000</p>
                 </div>
-                <div className="info-block">
-                    <h4>Address</h4>
-                    <p>Jl. R. Aspia, Karadenan, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16913</p>
+            </main>
+
+            <main>
+                <div className="info-section">
+                    <div className="info-block">
+                        <h4>Customer</h4>
+                        <p>Muchamad Nurza Bayu Dhantono</p>
+                        <p>muchamadnurzaba24@gmail.com</p>
+                        <p>+62 895-3965-90113</p>
+                    </div>
+                    <div className="info-block">
+                        <h4>Address</h4>
+                        <p>Jl. R. Aspia, Karadenan, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16913</p>
+                    </div>
+                    <div className="info-block">
+                        <h4>Shipping Option</h4>
+                        <p>Reguler</p>
+                    </div>
                 </div>
-                <div className="info-block">
-                    <h4>Shipping Option</h4>
-                    <p>Reguler</p>
+            </main>
+
+            <main>
+                <table className="details-table">
+                    <tbody>
+                        <tr>
+                            <td>Status</td>
+                            <td>Shipping</td>
+                            <td><a href="tracking.html" className="details-link">Details &gt;&gt;</a></td>
+                        </tr>
+                        <tr>
+                            <td>Payment Method</td>
+                            <td>Bank (Virtual Account)</td>
+                        </tr>
+                        <tr>
+                            <td>Payment Status</td>
+                            <td>Paid Off</td>
+                        </tr>
+                        <tr>
+                            <td>Order Created</td>
+                            <td>9/12/2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+
+            <main>
+                <div className="order-summary">
+                    <h4>Order Summary</h4>
+                    <p>Subtotal (1 item) <span>Rp615.000</span></p>
+                    <p>Shipping Fee <span>Rp15.000</span></p>
+                    <p>Discount <span>-</span></p>
                 </div>
-            </div>
+            </main>
 
-            <table className="details-table">
-                <tbody>
-                    <tr>
-                        <td>Status</td>
-                        <td>Shipping</td>
-                        <td><a href="tracking.html" className="details-link">Details &gt;&gt;</a></td>
-                    </tr>
-                    <tr>
-                        <td>Payment Method</td>
-                        <td>Bank (Virtual Account)</td>
-                    </tr>
-                    <tr>
-                        <td>Payment Status</td>
-                        <td>Paid Off</td>
-                    </tr>
-                    <tr>
-                        <td>Order Created</td>
-                        <td>9/12/2024</td>
-                    </tr>
-                </tbody>
-            </table>
+            <main>
+                <div className="cart-total">
+                    <p className="grand-total">Grand Total:</p>
+                    <p className="grand-total-amount">Rp630.000</p>
+                </div>
+            </main>
 
-            <div className="order-summary">
-                <h4>Order Summary</h4>
-                <p>Subtotal (1 item) <span>Rp615.000</span></p>
-                <p>Shipping Fee <span>Rp15.000</span></p>
-                <p>Discount <span>-</span></p>
-            </div>
-
-            <div className="cart-total">
-                <p className="grand-total">Grand Total:</p>
-                <p className="grand-total-amount">Rp630.000</p>
-            </div>
-
-            <div className="buttons">
-                <a href="product.html"><button className="buy-again">buy again</button></a>
-                <a href="review.html"><button className="review">Review</button></a>
-            </div>
+            <main>
+                <div className="buttons">
+                    <a href="product.html"><button className="buy-again">buy again</button></a>
+                    <a href="review.html"><button className="review">Review</button></a>
+                </div>
+            </main>
 
             <footer>
                 <div className="footer-links">
