@@ -39,7 +39,7 @@ const AccountSetting = () => {
 
             <div className="profile-container">
                 <div className="profile-header">
-                    <img src="/public/images/img/pp_alun.png" alt="Profile Picture" className="profile-picture" />
+                    <img src="/images/img/pp_alun.png" alt="Profile Picture" className="profile-picture" />
                     <div className="profile-info">
                         <h2>Muchamad Nurza Bayu Dhantono</h2>
                         <p>muchamadnurza24@gmail.com</p>

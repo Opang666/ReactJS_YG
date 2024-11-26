@@ -105,9 +105,6 @@ const Home = () => {
                             <h3>Roseanne Park</h3>
                         </div>
                     </div>
-                    <div className="more-link">
-                        <a href="#">More</a>
-                    </div>
                 </section>
             </main>
 

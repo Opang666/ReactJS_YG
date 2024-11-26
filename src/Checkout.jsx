@@ -6,7 +6,7 @@ const Checkout = () => {
         <header>
             <div className="navbar">
                     <img
-                        src="/public/images/img/logo_YG.png"
+                        src="/images/img/logo_YG.png"
                         alt="YG Entertainment Logo"
                         className="logo"
                     />
@@ -22,7 +22,7 @@ const Checkout = () => {
 
                 <button className="user-button">
                     <img
-                        src="/public/images/img/profile.png"
+                        src="/images/img/profile.png"
                         alt="User Icon"
                         className="icon-img"
                     />{" "}

@@ -138,10 +138,6 @@ const HomeLogged = () => {
                             <h3>Roseanne Park</h3>
                         </div>
                     </div>
-
-                    <div className="more-link">
-                        <Link to="#">More</Link>
-                    </div>
                 </section>
             </main>
 
