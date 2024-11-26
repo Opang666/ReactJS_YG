@@ -19,6 +19,13 @@ import './style/Review.css';
 import './style/DetailsItem.css';
 import './style/Concert.css';
 import './style/ArtistDetail.css';
+import './style/DetailConcert.css';
+import './style/ProductMiniAlbum.css';
+import './style/ProductDetail.css'
+import './style/NewsDetailLogged.css';
+import './style/AccountSetting.css';
+import './style/Point.css';
+import './style/Checkout.css';
 
 import AboutUs from './AboutUs';
 import AboutusLogged from './AboutusLogged';
@@ -42,6 +49,14 @@ import Concert from './Concert';
 import ConcertLogged from './ConcertLogged';
 import ArtistDetail from './ArtistDetail';
 import ArtistDetailLogged from './ArtistDetailLogged';
+import DetailConcert from './DetailConcert';
+import DetailConcertLogged from './DetailConcertLogged';
+import ProductMiniAlbum from './ProductMiniAlbum';
+import ProductDetail from './ProductDetail';
+import NewsDetailLogged from './NewsDetailLogged';
+import AccountSetting from './AccountSetting';
+import Point from './Point';
+import Checkout from './Checkout';
 
 function App() {
   return (
@@ -69,6 +84,14 @@ function App() {
         <Route path='/ConcertLogged' element={< ConcertLogged />} />
         <Route path='/ArtistDetail' element={< ArtistDetail />} />
         <Route path='/ArtistDetailLogged' element={< ArtistDetailLogged />} />
+        <Route path='/DetailConcert' element={< DetailConcert />} />
+        <Route path='/DetailConcertLogged' element={< DetailConcertLogged />} />
+        <Route path='/ProductMiniAlbum' element={< ProductMiniAlbum />} />
+        <Route path='/ProductDetail' element={< ProductDetail />} />
+        <Route path='/NewsDetailLogged' element={< NewsDetailLogged />} />
+        <Route path='/AccountSetting' element={< AccountSetting />} />
+        <Route path='/Point' element={< Point />} />
+        <Route path='/Checkout' element={< Checkout />} />
       </Routes>
     </div>
   );
