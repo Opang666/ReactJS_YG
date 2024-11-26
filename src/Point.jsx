@@ -16,7 +16,7 @@ const Point = () => {
         <>
             <header>
                 <div className="navbar">
-                    <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
+                    <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
 
                     <nav>
                         <Link to="/HomeLogged">Home</Link>
@@ -28,7 +28,7 @@ const Point = () => {
                 </div>
 
                 <button className="user-button">
-                    <img src="/public/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
+                    <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
                 </button>
 
                 <div className="dropdown">
@@ -86,9 +86,9 @@ const Point = () => {
                 <section className="redeem-rewards">
                     <h4>Redeem Points For Rewards</h4>
                         <div className="reward-images">
-                            <img src="/public/images/img/keyring.png" alt="Reward 1" />
-                            <img src="/public/images/img/Ballcap.png" alt="Reward 2" />
-                            <img src="/public/images/img/Brooch.png" alt="Reward 3" />
+                            <img src="/images/img/keyring.png" alt="Reward 1" />
+                            <img src="/images/img/Ballcap.png" alt="Reward 2" />
+                            <img src="/images/img/Brooch.png" alt="Reward 3" />
                         </div>
                 </section>
             </main>
@@ -119,6 +119,19 @@ const Point = () => {
                 </table>
             </section>
             </main>
+            <footer>
+                <div className="footer-links">
+                    <a href="#">Terms of Use</a>
+                    <Link to="/PrivacyPolicy">Privacy Policy</Link>
+                    <Link to="/CookiesPolicy">Cookie Policy</Link>
+                    <a href="#">Announcements</a>
+                </div>
+                <div className="footer-info">
+                    <p>Brand Inc. | CEO: SHABRINA ZAHRA AULIA CALL CENTER (+62)21-3452-1312 FAX (+62)21-4242-6565</p>
+                    <p>ADDRESS Jl. KH. Ahmad Dahlan Kby. No.14A, RT.2/RW.1, Kramat Pela, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12130</p>
+                    <p>© BRAND COMPANY Inc.</p>
+                </div>
+            </footer>
         </>
     );
 };

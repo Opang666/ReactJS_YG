@@ -13,9 +13,8 @@ const togglePassword = (id) => {
 const RegisNext = () => {
     return (
         <>
-        <body>
             <header>
-                <img src="/public/images/img/logo_YG.png" alt="Brand Logo" className="logo" />
+                <img src="/images/img/logo_YG.png" alt="Brand Logo" className="logo" />
             </header>
 
             <main>
@@ -63,7 +62,6 @@ const RegisNext = () => {
                     <p>© BRAND COMPANY Inc.</p>
                 </div>
             </footer>
-        </body>
         </>
     );
 }

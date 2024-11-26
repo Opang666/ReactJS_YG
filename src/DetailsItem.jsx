@@ -6,7 +6,7 @@ const DetailsItem = () => {
             <header>
             <div className="navbar">
                     <img
-                        src="/public/images/img/logo_YG.png"
+                        src="/images/img/logo_YG.png"
                         alt="YG Entertainment Logo"
                         className="logo"
                     />
@@ -22,7 +22,7 @@ const DetailsItem = () => {
 
                 <button className="user-button">
                     <img
-                        src="/public/images/img/profile.png"
+                        src="/images/img/profile.png"
                         alt="User Icon"
                         className="icon-img"
                     />{" "}
@@ -56,7 +56,7 @@ const DetailsItem = () => {
                 <div className="order-section">
                     <h3>Your Order</h3>
                     <div className="order-item">
-                        <img src="/public/images/img/lalisa_album.png" alt="LALISA- PHOTOBOOK [SPECIAL EDITION]" />
+                        <img src="/images/img/lalisa_album.png" alt="LALISA- PHOTOBOOK [SPECIAL EDITION]" />
                         <div className="order-details">
                             <p><strong>LISA -LALISA- PHOTOBOOK [SPECIAL EDITION]</strong></p>
                             <p>Quantity: 1</p>
@@ -98,7 +98,7 @@ const DetailsItem = () => {
                         <tr>
                             <td>Status</td>
                             <td>Shipping</td>
-                            <td><a href="tracking.html" className="details-link">Details &gt;&gt;</a></td>
+                            <td><Link to="/Tracking" className="details-link">Details &gt;&gt;</Link></td>
                         </tr>
                         <tr>
                             <td>Payment Method</td>
@@ -134,8 +134,8 @@ const DetailsItem = () => {
 
             <main>
                 <div className="buttons">
-                    <a href="product.html"><button className="buy-again">buy again</button></a>
-                    <a href="review.html"><button className="review">Review</button></a>
+                    <Link to="/Product"><button className="buy-again">buy again</button></Link>
+                    <Link to="/Review"><button className="review">Review</button></Link>
                 </div>
             </main>
 

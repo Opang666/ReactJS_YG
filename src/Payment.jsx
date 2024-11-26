@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./style/Payment.css";
 
 const Payment = () => {
@@ -7,11 +8,11 @@ const Payment = () => {
         <div className="navbar">
           <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
           <nav>
-            <a href="home_logged.html">Home</a>
-            <a href="product.html">Product</a>
-            <a href="community.html">Community</a>
-            <a href="about_us_logged.html">About Us</a>
-            <a href="contact.html">Contact Us</a>
+            <Link to="/HomeLogged">Home</Link>
+            <Link to="/Product">Product</Link>
+            <Link to="/community">Community</Link>
+            <Link to="/AboutUsLogged">About Us</Link>
+            <Link to="/Contact">Contact Us</Link>
           </nav>
         </div>
         <button className="user-button">
@@ -19,7 +20,7 @@ const Payment = () => {
         </button>
         <div className="dropdown">
           <ul>
-            <li><a href="Cart.html">Cart</a></li>
+            <li><Link to="/Cart">Cart</Link></li>
             <li><a href="#">Poin</a></li>
             <li><a href="#">Transaction</a></li>
             <li><a href="#">Profile</a></li>
@@ -35,7 +36,7 @@ const Payment = () => {
           <div className="account-number">4353-5406-3406-4237-5463</div>
           <p className="validity-info">
             <img
-              src="/images/img/warning.png"
+              src="/img/warning.png"
               alt="Warning"
               style={{ width: "16px", verticalAlign: "middle", marginRight: "5px" }}
             />
@@ -53,8 +54,8 @@ const Payment = () => {
       <footer>
         <div className="footer-links">
           <a href="#">Terms of Use</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Cookie Policy</a>
+          <Link to="/PrivacyPolicy">Privacy Policy</Link>
+          <Link to="/CookiesPolicy">Cookie Policy</Link>
           <a href="#">Announcements</a>
         </div>
         <div className="footer-info">

@@ -4,7 +4,6 @@ import "./style/PrivacyPolicy.css"
 const PrivacyPolicy = () => {
     return (
         <>
-        <body>
             <header>
                 <div className="navbar">
                     <img
@@ -24,7 +23,7 @@ const PrivacyPolicy = () => {
 
                 <button className="user-button">
                     <img
-                        src="/public//images/img/profile.png"
+                        src="/images/img/profile.png"
                         alt="User Icon"
                         className="icon-img"
                     />{" "}
@@ -158,23 +157,19 @@ const PrivacyPolicy = () => {
                 </div>
             </div>
 
-            <footer className="footer">
-                <p>
-                    Terms of Use | Privacy Policy | Cookie Policy |
-                    Announcements
-                </p>
-                <p>
-                    Brand Inc | CEO: SHARINNA ZAHRA | CALL CENTER
-                    (+6221)-5432-1123 FAX: (+6221)-4324-6565
-                </p>
-                <p>
-                    ADDRESS: Jl. KH. Ahmad Dahlan No. 10-A, RT.2/RW.5, Kramat
-                    Pela, Kec. Kebayoran Baru, Kota Jakarta Selatan, Daerah
-                    Khusus Ibukota Jakarta 12130
-                </p>
-                <p>©️ BRAND COMPANY Inc.</p>
+            <footer>
+                <div className="footer-links">
+                    <a href="#">Terms of Use</a>
+                    <Link to="/PrivacyPolicy">Privacy Policy</Link>
+                    <Link to="/CookiesPolicy">Cookie Policy</Link>
+                    <a href="#">Announcements</a>
+                </div>
+                <div className="footer-info">
+                    <p>Brand Inc. | CEO: SHABRINA ZAHRA AULIA CALL CENTER (+62)21-3452-1312 FAX (+62)21-4242-6565</p>
+                    <p>ADDRESS Jl. KH. Ahmad Dahlan Kby. No.14A, RT.2/RW.1, Kramat Pela, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12130</p>
+                    <p>© BRAND COMPANY Inc.</p>
+                </div>
             </footer>
-        </body>
         </>
     );
 };

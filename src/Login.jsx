@@ -5,7 +5,7 @@ const Login = () => {
         <>
         <body>
             <header>
-                <img src="/public/images/img/logo_YG.png" alt="Brand Logo" className="logo" />
+                <img src="/images/img/logo_YG.png" alt="Brand Logo" className="logo" />
             </header>
 
             <main>
@@ -34,10 +34,10 @@ const Login = () => {
 
                     <div className="social-login">
                         <button className="social-button facebook">
-                            <img src="/public/images/img/Facebook Button.png" alt="Facebook" /> 
+                            <img src="/images/img/Facebook Button.png" alt="Facebook" /> 
                         </button>
                         <button className="social-button google">
-                            <img src="/public/images/img/Group.png" alt="Google" />
+                            <img src="/images/img/Group.png" alt="Google" />
                         </button>
                     </div>
                 </div>

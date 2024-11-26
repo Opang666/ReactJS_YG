@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./style/Tracking.css";
 
 const Tracking = () => {
@@ -5,17 +6,17 @@ const Tracking = () => {
         <>
             <header>
                 <div className="navbar">
-                    <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
+                    <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
                         <nav>
-                            <a href="home_logged.html">Home</a>
-                            <a href="product.html">Product</a>
-                            <a href="community.html">Community</a>
-                            <a href="about_us_logged.html">About Us</a>
-                            <a href="contact.html">Contact Us</a>
+                            <Link to="/HomeLogged">Home</Link>
+                            <Link to="/Product">Product</Link>
+                            <Link to="/community">Community</Link>
+                            <Link to="/AboutUsLogged">About Us</Link>
+                            <Link to="/Contact">Contact Us</Link>
                         </nav>
                 </div>
                 <button className="user-button">
-                    <img src="/public/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
+                    <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
                 </button>
                 <div className="dropdown">
                     <ul>
@@ -31,13 +32,13 @@ const Tracking = () => {
             <div className="container">
                 <div className="back-title">
                     <a href="detail_item.html">
-                        <img src="/public/images/img/kembali.png" alt="Back to Transaction" className="back-button" />
+                        <img src="/images/img/kembali.png" alt="Back to Transaction" className="back-button" />
                     </a>
                     <h1>Details Tracking</h1>
                 </div>
 
                 <div className="product-header">
-                    <img src="/public/images/img/lalisa_album.png" alt="Product Image" className="product-image" />
+                    <img src="/images/img/lalisa_album.png" alt="Product Image" className="product-image" />
                         <div className="product-title">
                             LISA -LALISA- PHOTOBOOK [SPECIAL EDITION]
                         </div>
@@ -81,19 +82,19 @@ const Tracking = () => {
             </div>
         </div>
 
-        <footer>
-            <div className="footer-links">
-            <a href="#">Terms of Use</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Cookie Policy</a>
-            <a href="#">Announcements</a>
-            </div>
-            <div className="footer-info">
-            <p>Brand Inc. | CEO: SHABRINA ZAHRA AULIA CALL CENTER (+62)21-3452-1312 FAX (+62)21-4242-6565</p>
-            <p>ADDRESS Jl. KH. Ahmad Dahlan Kby. No.14A, RT.2/RW.1, Kramat Pela, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12130</p>
-            <p>© BRAND COMPANY Inc.</p>
-            </div>
-        </footer>
+            <footer>
+                <div className="footer-links">
+                    <a href="#">Terms of Use</a>
+                    <Link to="/PrivacyPolicy">Privacy Policy</Link>
+                    <Link to="/CookiesPolicy">Cookie Policy</Link>
+                    <a href="#">Announcements</a>
+                </div>
+                <div className="footer-info">
+                    <p>Brand Inc. | CEO: SHABRINA ZAHRA AULIA CALL CENTER (+62)21-3452-1312 FAX (+62)21-4242-6565</p>
+                    <p>ADDRESS Jl. KH. Ahmad Dahlan Kby. No.14A, RT.2/RW.1, Kramat Pela, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12130</p>
+                    <p>© BRAND COMPANY Inc.</p>
+                </div>
+            </footer>
 
         </>
     );

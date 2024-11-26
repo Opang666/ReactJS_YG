@@ -51,10 +51,10 @@ const ArtistDetailLogged = () => {
                 </div>
             </header>
 
+            <h1 className="isi">BABYMONSTER</h1>
             <main>
                 <section className="banner">
                     <img src="/public/images/img/detail_BM.png" alt="BABYMONSTER" />
-                    <h1>BABYMONSTER</h1>
                     <button>Artist Info</button>
                 </section>
             </main>

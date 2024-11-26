@@ -5,19 +5,19 @@ const NewsDetailLogged = () => {
         <>
              <header>
                 <div className="navbar">
-                    <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
+                    <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
 
                     <nav>
                         <Link to="/HomeLogged">Home</Link>
                         <Link to="/Product">Product</Link>
                         <Link to="/community">Community</Link>
-                        <Link to="/about_us_logged">About Us</Link>
+                        <Link to="/AboutUsLogged">About Us</Link>
                         <Link to="/contact">Contact Us</Link>
                     </nav>
                 </div>
 
                 <button className="user-button">
-                    <img src="/public/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
+                    <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
                 </button>
 
                 <div className="dropdown">
@@ -33,7 +33,7 @@ const NewsDetailLogged = () => {
 
             <h3 className="center-heading">BLACKPINK is Comeback!!!</h3>
                 <div className="banner-image">
-                    <img src="/public/images/img/fullBP.jpeg" alt="BLACKPINK World Tour Banner" />
+                    <img src="/images/img/fullBP.jpeg" alt="BLACKPINK World Tour Banner" />
                 </div>
 
                 <div className="content">

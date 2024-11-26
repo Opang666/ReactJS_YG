@@ -7,7 +7,7 @@ const ConcertLogged = () => {
         <header>
             <div className="navbar">
                     <img
-                        src="/public/images/img/logo_YG.png"
+                        src="/images/img/logo_YG.png"
                         alt="YG Entertainment Logo"
                         className="logo"
                     />
@@ -23,7 +23,7 @@ const ConcertLogged = () => {
 
                 <button className="user-button">
                     <img
-                        src="/public/images/img/profile.png"
+                        src="/images/img/profile.png"
                         alt="User Icon"
                         className="icon-img"
                     />{" "}
@@ -56,10 +56,10 @@ const ConcertLogged = () => {
                     <main className="content">
                         <div
                             className="event-grid"
-                            onClick={() => (window.location.href = 'detail_concert_bp.html')}
+                            onClick={() => (window.location.href = 'DetailConcert')}
                         >
                             <div className="event">
-                                <img src="/public/images/img/konser_seventeen.png" alt="Konser Seventeen" />
+                                <img src="/images/img/konser_seventeen.png" alt="Konser Seventeen" />
                                 <div className="date">
                                     <p id="date">Feb 8</p>
                                     <p>SEVENTEEN - &quot;RIGHT HERE&quot; Tour</p>
@@ -75,7 +75,7 @@ const ConcertLogged = () => {
                             onClick={() => (window.location.href = 'detail_concert_bp.html')}
                         >
                             <div className="event">
-                                <img src="/public/images/img/nct.png" alt="Konser Seventeen" />
+                                <img src="/images/img/nct.png" alt="Konser Seventeen" />
                                 <div className="date">
                                     <p id="date">May 18</p>
                                     <p>NCT DREAM - &quot;THE DREAM SHOW 3:&quot;DREAM()SCAPE</p>
@@ -91,7 +91,7 @@ const ConcertLogged = () => {
                             onClick={() => (window.location.href = 'detail_concert_bp.html')}
                         >
                             <div className="event">
-                                <img src="/public/images/img/ive.png" alt="Konser Seventeen" />
+                                <img src="/images/img/ive.png" alt="Konser Seventeen" />
                                 <div className="date">
                                     <p id="date">Jan 13</p>
                                     <p>IVE -The 1st World Tour &quot;Show What I Have&quot;</p>
@@ -108,7 +108,7 @@ const ConcertLogged = () => {
                             onClick={() => (window.location.href = 'detail_concert_bp.html')}
                         >
                             <div className="event">
-                                <img src="/public/images/img/synk.jpg" alt="Konser Seventeen" />
+                                <img src="/images/img/synk.jpg" alt="Konser Seventeen" />
                                 <div className="date">
                                     <p id="date">Aug 24</p>
                                     <p>aespa - &quot;SYNK: Parallel Link&quot;World Tour</p>
@@ -124,7 +124,7 @@ const ConcertLogged = () => {
                             onClick={() => (window.location.href = 'detail_concert_bp.html')}
                         >
                             <div className="event">
-                                <img src="/public/images/img/btob.png" alt="Konser Seventeen" />
+                                <img src="/images/img/btob.png" alt="Konser Seventeen" />
                                 <div className="date">
                                     <p id="date">Jul 13</p>
                                     <p>BtoB - &quot;Out Dream &quot; - Fan-Con</p>
@@ -140,7 +140,7 @@ const ConcertLogged = () => {
                             onClick={() => (window.location.href = 'detail_concert_bp.html')}
                         >
                             <div className="event">
-                                <img src="/public/images/img/zerosabone.png" alt="Konser Seventeen" />
+                                <img src="/images/img/zerosabone.png" alt="Konser Seventeen" />
                                 <div className="date">
                                     <p id="date">Oct 26</p>
                                     <p>ZEROSABONE - The First Tour</p>

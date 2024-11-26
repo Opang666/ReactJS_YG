@@ -6,7 +6,7 @@ const ProductMiniAlbum = () => {
             <header>
                 <div className="navbar">
                     <img
-                        src="/public/images/img/logo_YG.png"
+                        src="/images/img/logo_YG.png"
                         alt="YG Entertainment Logo"
                         className="logo"
                     />
@@ -22,7 +22,7 @@ const ProductMiniAlbum = () => {
 
                 <button className="user-button">
                     <img
-                        src="/public/images/img/profile.png"
+                        src="/images/img/profile.png"
                         alt="User Icon"
                         className="icon-img"
                     />{" "}
@@ -52,27 +52,27 @@ const ProductMiniAlbum = () => {
         
             <main>
                     <div className="product-item">
-                        <img src="/public/images/img/2022 Welcoming Collection.png" alt="2022 Welcoming Collection" />
+                        <img src="/images/img/2022 Welcoming Collection.png" alt="2022 Welcoming Collection" />
                         <h3>2022 Welcoming <br/>Collection</h3>
                         <p>Rp615,000</p>
                     </div>
 
                 <div>
                     <div className="product-item">
-                        <img src="/public/images/img/TREASURE TUMBLER.png" alt="TREASURE TUMBLER" />
+                        <img src="/images/img/TREASURE TUMBLER.png" alt="TREASURE TUMBLER" />
                         <h3>TREASURE <br/>TUMBLER</h3>
                         <p>Rp465,000</p>
                     </div>
                 </div>
 
                 <div className="product-item">
-                    <img src="/public/images/img/WINNER 10th ANNIVERSARRY MUG.png" alt="WINNER 10TH ANNIVERSARY MUG" />
+                    <img src="/images/img/WINNER 10th ANNIVERSARRY MUG.png" alt="WINNER 10TH ANNIVERSARY MUG" />
                     <h3>WINNER 10TH <br/>ANNIVERSARY MUG</h3>
                     <p>Rp345,000</p>
                 </div>
 
                 <div className="product-item">
-                    <img src="/public/images/img/BABYMONSTER ROOM SLIPPER.png" alt="BABYMONSTER ROOM SLIPPER" />
+                    <img src="/images/img/BABYMONSTER ROOM SLIPPER.png" alt="BABYMONSTER ROOM SLIPPER" />
                     <h3>BABYMONSTER <br/>ROOM SLIPPER</h3>
                     <p>Rp525,000</p>
                 </div>
@@ -80,22 +80,22 @@ const ProductMiniAlbum = () => {
 
             <main>
                 <div className="product-item">
-                    <img src="/public/images/img/WINNER TEAM VARSITY JACKET.png" alt="WINNER TEAM VARSITY JACKET" />
+                    <img src="/images/img/WINNER TEAM VARSITY JACKET.png" alt="WINNER TEAM VARSITY JACKET" />
                     <h3>WINNER TEAM <br/>VARSITY JACKET</h3>
                     <p>Rp1,575,000</p>
                 </div>
                 <div className="product-item">
-                    <img src="/public/images/img/BABYMONSTER PHOTOCARD PACKAGE.png" alt="BABYMONSTER PHOTOCARD PACKAGE" />
+                    <img src="/images/img/BABYMONSTER PHOTOCARD PACKAGE.png" alt="BABYMONSTER PHOTOCARD PACKAGE" />
                     <h3>BABYMONSTER <br/>PHOTOCARD PACKAGE</h3>
                     <p>Rp195,000</p>
                 </div>
                 <div className="product-item">
-                    <img src="/public/images/img/JISOO BRACELET.png" alt="DISCO BRACELET" />
+                    <img src="/images/img/JISOO BRACELET.png" alt="DISCO BRACELET" />
                     <h3>DISCO <br/>BRACELET</h3>
                     <p>Rp430,000</p>
                 </div>
                 <div className="product-item">
-                    <img src="/public/images/img/TREASURE HOODIE.png" alt="TREASURE HOODIE" />
+                    <img src="/images/img/TREASURE HOODIE.png" alt="TREASURE HOODIE" />
                     <h3>TREASURE <br/>HOODIE</h3>
                     <p>Rp1,125,000</p>
                 </div>
@@ -103,22 +103,22 @@ const ProductMiniAlbum = () => {
 
             <main>
                 <div className="product-item">
-                    <img src="/public/images/img/TREASURE SCRUNCHIE SET.png" alt="TREASURE SCRUNCHIE SET" />
+                    <img src="/images/img/TREASURE SCRUNCHIE SET.png" alt="TREASURE SCRUNCHIE SET" />
                     <h3>TREASURE <br/>SCRUNCHIE SET</h3>
                     <p>Rp375,000</p>
                 </div>
                 <div className="product-item">
-                    <img src="/public/images/img/mug.png" alt="BACKPACK RE-CYCLE TOTE BAG" />
+                    <img src="/images/img/mug.png" alt="BACKPACK RE-CYCLE TOTE BAG" />
                     <h3>BABYMONSTER MUG <br/>+ COASTER SET</h3>
                     <p>Rp250,000</p>
                 </div>
                 <div className="product-item">
-                    <img src="/public/images/img/WINNER TRAVEL BAG.png" alt="WINNER TEAM BAG" />
+                    <img src="/images/img/WINNER TRAVEL BAG.png" alt="WINNER TEAM BAG" />
                     <h3>WINNER <br/>TEAM BAG</h3>
                     <p>Rp555,000</p>
                 </div>
                 <div className="product-item">
-                    <img src="/public/images/img/BABYMONSTER HOODIE.png" alt="BABYMONSTER HOODIE" />
+                    <img src="/images/img/BABYMONSTER HOODIE.png" alt="BABYMONSTER HOODIE" />
                     <h3>BABYMONSTER <br/>HOODIE</h3>
                     <p>Rp1,020,000</p>
                 </div>

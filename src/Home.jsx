@@ -7,7 +7,7 @@ const Home = () => {
         <body>
             <header>
                 <div className="navbar">
-                    <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
+                    <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
                     <nav>
                         <Link to="/home">Home</Link>
                         <Link to="/about-us">About Us</Link>
@@ -18,7 +18,7 @@ const Home = () => {
 
             <main>
                 <section className="hero">
-                    <img src="/public/images/img/Introduction.png" alt="Introduction" />
+                    <img src="/images/img/Introduction.png" alt="Introduction" />
                     <div className="center">
                         <h1>What is YGentertainment.id?</h1>
                         <p>Official platform provides original YG Entertainment merchandise from Korea for fans in Indonesia. Find exclusive products and the latest concert schedules for YG artists here!</p>
@@ -32,11 +32,11 @@ const Home = () => {
                     <a href="#" className="more-link">More</a>
                     <div className="news-grid">
                         <div className="news-item">
-                            <img src="/public/images/img/bp.png" alt="Blackpink Comeback" onClick={() => window.location.href = 'news.html'} />
+                            <img src="/images/img/bp.png" alt="Blackpink Comeback" onClick={() => window.location.href = 'news.html'} />
                             <h3>Blackpink Comeback</h3>
                         </div>
                         <div className="news-item">
-                            <img src="/public/images/img/Upcoming.Babymonster.png" alt="BabyMonster" />
+                            <img src="/images/img/Upcoming.Babymonster.png" alt="BabyMonster" />
                             <h3>Babymonster</h3>
                         </div>
                     </div>
@@ -49,11 +49,11 @@ const Home = () => {
                     <a href="more_concert.html" className="more-link">More</a>
                     <div className="concert-grid">
                         <div className="concert-item">
-                            <img src="/public/images/img/Poster Konser Treasure.png" alt="TREASURE World Tour Poster" />
+                            <img src="/images/img/Poster Konser Treasure.png" alt="TREASURE World Tour Poster" />
                             <h3>TREASURE World Tour</h3>
                         </div>
                         <div className="concert-item">
-                            <img src="/public/images/img/Poster Konser BabyMonster.png" alt="SE U MARCH Poster" />
+                            <img src="/images/img/Poster Konser BabyMonster.png" alt="SE U MARCH Poster" />
                             <h3>SE U MARCH</h3>
                         </div>
                     </div>
@@ -65,43 +65,43 @@ const Home = () => {
                     <h2 style={{ paddingLeft: "2%" }}>Looking for artists?</h2>
                     <div className="artist-grid">
                         <div className="artist-card">
-                            <img src="/public/images/img/blackpink.jpg" alt="BLACKPINK" />
+                            <img src="/images/img/blackpink.jpg" alt="BLACKPINK" />
                             <h3>BLACKPINK</h3>
                         </div>
                         <div className="artist-card">
-                            <img src="/public/images/img/treasuree.jpeg" alt="TREASURE" />
+                            <img src="/images/img/treasuree.jpeg" alt="TREASURE" />
                             <h3>TREASURE</h3>
                         </div>
                         <div className="artist-card">
-                            <img src="/public/images/img/baby.png" alt="BABYMONSTER" />
+                            <img src="/images/img/baby.png" alt="BABYMONSTER" />
                             <h3>BABYMONSTER</h3>
                         </div>
                         <div className="artist-card">
-                            <img src="/public/images/img/win.jpg" alt="WINNER" />
+                            <img src="/images/img/win.jpg" alt="WINNER" />
                             <h3>WINNER</h3>
                         </div>
                         <div className="artist-card">
-                            <img src="/public/images/img/akmu.jpeg" alt="AKMU" />
+                            <img src="/images/img/akmu.jpeg" alt="AKMU" />
                             <h3>AKMU</h3>
                         </div>
                         <div className="artist-card">
-                            <img src="/public/images/img/EUN JIWON.png" alt="Eun Ji-won" />
+                            <img src="/images/img/EUN JIWON.png" alt="Eun Ji-won" />
                             <h3>Eun Ji-won</h3>
                         </div>
                         <div className="artist-card">
-                            <img src="/public/images/img/lisa.png" alt="Lalisa Manoban" />
+                            <img src="/images/img/lisa.png" alt="Lalisa Manoban" />
                             <h3>Lalisa Manoban</h3>
                         </div>
                         <div className="artist-card">
-                            <img src="/public/images/img/jenni.png" alt="Jennie Kim" />
+                            <img src="/images/img/jenni.png" alt="Jennie Kim" />
                             <h3>Jennie Kim</h3>
                         </div>
                         <div className="artist-card">
-                            <img src="/public/images/img/jisso.png" alt="Kim Ji-soo" />
+                            <img src="/images/img/jisso.png" alt="Kim Ji-soo" />
                             <h3>Kim Ji-soo</h3>
                         </div>
                         <div className="artist-card">
-                            <img src="/public/images/img/rose.png" alt="Roseanne Park" />
+                            <img src="/images/img/rose.png" alt="Roseanne Park" />
                             <h3>Roseanne Park</h3>
                         </div>
                     </div>

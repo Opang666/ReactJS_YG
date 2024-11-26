@@ -26,6 +26,7 @@ import './style/NewsDetailLogged.css';
 import './style/AccountSetting.css';
 import './style/Point.css';
 import './style/Checkout.css';
+import './style/Community.css';
 
 import AboutUs from './AboutUs';
 import AboutusLogged from './AboutusLogged';
@@ -57,6 +58,7 @@ import NewsDetailLogged from './NewsDetailLogged';
 import AccountSetting from './AccountSetting';
 import Point from './Point';
 import Checkout from './Checkout';
+import Community from './Community';
 
 function App() {
   return (
@@ -92,6 +94,7 @@ function App() {
         <Route path='/AccountSetting' element={< AccountSetting />} />
         <Route path='/Point' element={< Point />} />
         <Route path='/Checkout' element={< Checkout />} />
+        <Route path='/Community' element={< Community />} />
       </Routes>
     </div>
   );

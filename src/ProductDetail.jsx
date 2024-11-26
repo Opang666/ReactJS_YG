@@ -23,7 +23,7 @@ const ProductDetail = () => {
         <>
             <header>
                 <div className="navbar">
-                    <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
+                    <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
 
                     <nav>
                         <Link to="/HomeLogged">Home</Link>
@@ -35,7 +35,7 @@ const ProductDetail = () => {
                 </div>
 
                 <button className="user-button">
-                    <img src="/public/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
+                    <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
                 </button>
 
                 <div className="dropdown">
@@ -51,7 +51,7 @@ const ProductDetail = () => {
             
             <div className="product-container">
                 <div className="product-image">
-                    <img src="/public/images/img/member_bp.png" alt="BLINK Membership Card" />
+                    <img src="/images/img/member_bp.png" alt="BLINK Membership Card" />
                 </div>
                 <main>
                 <div className="product-details">

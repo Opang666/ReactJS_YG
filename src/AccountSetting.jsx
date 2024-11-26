@@ -6,21 +6,21 @@ const AccountSetting = () => {
             <header>
                 <div className="navbar">
                     <img
-                        src="/public/images/img/logo_YG.png"
+                        src="/images/img/logo_YG.png"
                         alt="YG Entertainment Logo"
                         className="logo"
                     />
                     <nav>
                         <Link to="/HomeLogged">Home</Link>
-                        <Link to="/product">Product</Link>
-                        <Link to="/community">Community</Link>
-                        <Link to="/about_us_logged">About Us</Link>
-                        <Link to="/contact">Contact Us</Link>
+                        <Link to="/Product">Product</Link>
+                        <Link to="/Community">Community</Link>
+                        <Link to="/AboutUsLogged">About Us</Link>
+                        <Link to="/Contact">Contact Us</Link>
                     </nav>
                 </div>
                 <button className="user-button">
                     <img
-                        src="/public/images/img/profile.png"
+                        src="/images/img/profile.png"
                         alt="User Icon"
                         className="icon-img"
                     />
@@ -75,7 +75,7 @@ const AccountSetting = () => {
                 </div>
 
                 <div className="email-entry">
-                    <img src="/public/images/img/sms.png" alt="Email Icon" className="email-icon" />
+                    <img src="/images/img/sms.png" alt="Email Icon" className="email-icon" />
                     <div className="email-info">
                         <p>naufalganteng123@gmail.com</p>
                         <small>1 month ago</small>

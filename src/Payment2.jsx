@@ -3,20 +3,19 @@ import { Link } from "react-router-dom";
 const Payment2 = () => {
     return (
         <>
-        <body>
             <header>
                 <div className="navbar">
-                    <img src="/public/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
+                    <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
                     <nav>
-                        <a href="home_logged.html">Home</a>
-                        <a href="product.html">Product</a>
-                        <a href="community.html">Community</a>
-                        <a href="about_us_logged.html">About Us</a>
-                        <a href="contact.html">Contact Us</a>
+                        <Link to="/HomeLogged">Home</Link>
+                        <Link to="/Product">Product</Link>
+                        <Link to="/community">Community</Link>
+                        <Link to="/AboutUsLogged">About Us</Link>
+                        <Link to="/Contact">Contact Us</Link>
                     </nav>
                 </div>
                 <button className="user-button">
-                    <img src="/public/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
+                    <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
                 </button>
                 <div className="dropdown">
                     <ul>
@@ -35,7 +34,7 @@ const Payment2 = () => {
                         <h3>Payment Confirm</h3>
                     </div>
                     <div className="success-image">
-                        <img src="/public/images/img/sukses.png" className="animated-image" alt="Success" />
+                        <img src="/images/img/sukses.png" className="animated-image" alt="Success" />
                     </div>
                     <h1 id="point">+350 Point</h1>
             </main>
@@ -53,7 +52,6 @@ const Payment2 = () => {
                     <p>© BRAND COMPANY Inc.</p>
                 </div>
             </footer>
-        </body>
         </>
     );
 };

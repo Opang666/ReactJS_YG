@@ -17,7 +17,7 @@ const DetailConcert = () => {
 
             <main>
                 <div className="banner-image">
-                    <img src="/public/images/img/konser_seventeen.png" alt="Konser Seventeen" />
+                    <img src="/images/img/konser_seventeen.png" alt="Konser Seventeen" />
                 </div>
             </main>
 

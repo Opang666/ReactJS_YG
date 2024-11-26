@@ -114,6 +114,10 @@ nav a {
   .dropdown ul li:last-child {
     border-bottom: none;
   }
+
+    .isi {
+        text-align: center;          
+    }
 /* Banner */
 .banner {
     text-align: center;
