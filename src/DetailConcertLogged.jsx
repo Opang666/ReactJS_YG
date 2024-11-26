@@ -15,7 +15,7 @@ const DetailConcertLogged = () => {
                     <nav>
                         <Link to="/HomeLogged">Home</Link>
                         <Link to="/product">Product</Link>
-                        <Link to="/community">Community</Link>
+                        <Link to="/Community">Community</Link>
                         <Link to="/about_us_logged">About Us</Link>
                         <Link to="/contact">Contact Us</Link>
                     </nav>

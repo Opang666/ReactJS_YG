@@ -11,7 +11,7 @@ const Review = () => {
                         <nav>
                             <Link to="/HomeLogged">Home</Link>
                             <Link to="/Product">Product</Link>
-                            <Link to="/community">Community</Link>
+                            <Link to="/Community">Community</Link>
                             <Link to="/AboutUsLogged">About Us</Link>
                             <Link to="/Contact">Contact Us</Link>
                         </nav>
