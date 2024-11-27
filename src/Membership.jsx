@@ -6,49 +6,29 @@ const Membership = () => {
 
   const products = [
     {
-      title: "TREASURE MAKER MEMBERSHIP",
-      price: "Rp.367.000",
+      title: "TRUME MEMBERSHIP",
+      price: "Rp.80.000",
       image: "/images/img/member_trea.png",
     },
     {
-      title: "TREASURE MAKER MEMBERSHIP KIT",
-      price: "Rp.252.000",
+      title: "MONSTIEZ MEMBERSHIP",
+      price: "Rp.80.000",
       image: "/images/img/member_bm.png",
     },
     {
-      title: "MONTIEZ MEMBERSHIP (BABY MONSTER)",
-      price: "Rp.324.000",
+      title: "AKKADEMY MEMBERSHIP",
+      price: "Rp.80.000",
       image: "/images/img/member_akmu.png",
     },
     {
-      title: "AKKADEMY MEMBERSHIP",
-      price: "Rp.173.000",
+      title: "BLINK MEMBERSHIP",
+      price: "Rp.80.000",
       image: "/images/img/member_bp.png",
     },
     {
-      title: "BLINK MEMBERSHIP",
-      price: "Rp.363.000",
-      image: "/images/img/member_winner.png",
-    },
-    {
-      title: "BLINK PREMIUM MEMBERSHIP KIT",
-      price: "Rp.790.000",
-      image: "/images/img/member_trea.png",
-    },
-    {
-      title: "BLINK GENERAL MEMBERSHIP KIT",
-      price: "Rp.316.000",
-      image: "/images/img/member_trea.png",
-    },
-    {
       title: "INNER CIRCLE MEMBERSHIP",
-      price: "Rp.363.000",
-      image: "/images/img/member_trea.png",
-    },
-    {
-      title: "INNER CIRCLE MEMBERSHIP KIT 1",
-      price: "Rp.253.000",
-      image: "/images/img/member_trea.png",
+      price: "Rp.80.0000",
+      image: "/images/img/member_winner.png",
     },
   ];
 

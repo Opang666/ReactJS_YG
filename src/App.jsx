@@ -32,6 +32,7 @@ import './style/Product.css';
 import './style/Lightstick.css';
 import './style/Merchandise.css';
 import './style/Membership.css';
+import './style/Cart.css';
 
 import AboutUs from './AboutUs';
 import AboutusLogged from './AboutusLogged';
@@ -69,6 +70,7 @@ import Product from './Product';
 import Lightstick from './Lightstick';
 import Merchandise from './Merchandise';
 import Membership from './Membership';
+import Cart from './Cart';
 
 function App() {
   return (
@@ -110,6 +112,7 @@ function App() {
         <Route path='/Lightstick' element={< Lightstick />} />
         <Route path='/Merchandise' element={< Merchandise />} />
         <Route path='/Membership' element={< Membership />} />
+        <Route path='/Cart' element={< Cart />} />
       </Routes>
     </div>
   );
