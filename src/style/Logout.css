@@ -1,0 +1,92 @@
+/* Body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Cegah scroll saat modal terbuka */
+}
+
+/* Background overlay */
+.background-overlay {
+    display: none; /* Tidak ditampilkan secara default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Background transparan gelap */
+    z-index: 10;
+}
+
+/* Aktifkan overlay */
+.background-overlay.active {
+    display: block; /* Tampilkan overlay ketika aktif */
+}
+
+/* Logout modal container */
+.logout-modal {
+    display: none; /* Tidak ditampilkan secara default */
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #333; /* Warna latar belakang modal */
+    color: #fff; /* Warna teks modal */
+    border-radius: 8px; /* Membulatkan sudut modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+    text-align: center;
+    z-index: 20;
+}
+
+/* Aktifkan modal */
+.logout-modal.active {
+    display: flex; /* Tampilkan modal ketika aktif */
+}
+
+/* Close icon */
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Button group styling */
+.button-group {
+    display: flex;
+    justify-content: space-around; /* Atur jarak antar tombol */
+    margin-top: 20px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    transition: background-color 0.3s ease; /* Animasi transisi */
+}
+
+/* Tombol Logout */
+button:first-child {
+    background-color: #c10f09; /* Warna merah */
+}
+
+button:first-child:hover {
+    background-color: #a10d08; /* Warna merah gelap saat hover */
+}
+
+/* Tombol Cancel */
+button:last-child {
+    background-color: #292929; /* Warna abu gelap */
+}
+
+button:last-child:hover {
+    background-color: #1f1f1f; /* Warna abu lebih gelap saat hover */
+}

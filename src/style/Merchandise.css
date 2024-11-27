@@ -19,23 +19,14 @@ header {
   align-items: center;
   justify-content: flex-start; /* Menempatkan logo di kiri */
   border-bottom: 2px solid #ccc;
-  width: 1260px;
 }
+
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.navbar img {
-  width: 80px;
-  height: 45px;
-  padding-top: -10px;
-  padding-bottom: -10px;
 }
 
 .logo {
@@ -47,11 +38,6 @@ nav {
   align-items: center;
 }
 
-nav a img {
-  width: 30px !important;
-  margin-right: 30px !important;
-}
-
 nav a {
   margin-right: 15px;
   color: #323232;
@@ -59,13 +45,9 @@ nav a {
   font-weight: bold;
 }
 
+
 .user-menu {
   position: relative;
-}
-
-.user-button img {
-  width: 30px;
-  margin-right: 10px;
 }
 
 .user-button {
@@ -99,7 +81,7 @@ nav a {
   border-radius: 15px;
   width: 150px;
   z-index: 1000;
-  font-family: "Lato", sans-serif;
+ font-family: 'Lato', sans-serif;
 }
 
 .dropdown ul {
@@ -125,6 +107,11 @@ nav a {
 
 .dropdown ul li:last-child {
   border-bottom: none;
+}
+
+/* Show dropdown when active */
+.user-menu.active .dropdown {
+  display: block;
 }
 
 /* Show dropdown when active */
@@ -309,11 +296,18 @@ nav a {
 
 /* Footer */
 footer {
-  background-color: #292929; /* Background footer hitam */
-  color: #fff; /* Warna teks putih */
+  margin-top: 40px;
   padding: 20px;
   text-align: center;
-  font-size: 14px;
+  font-size: 0.9em;
+  color: #666;
+  background-color: #292929;
+  color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.footer p {
+  margin-bottom: 10px;
 }
 
 .footer-links {

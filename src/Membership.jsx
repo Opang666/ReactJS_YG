@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "./Membership.css";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Membership = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -8,47 +8,47 @@ const Membership = () => {
     {
       title: "TREASURE MAKER MEMBERSHIP",
       price: "Rp.367.000",
-      image: "./IMG MEMBERSHIP/TREASURE MAKER MEMBERSHIP.png",
+      image: "/images/img/member_trea.png",
     },
     {
       title: "TREASURE MAKER MEMBERSHIP KIT",
       price: "Rp.252.000",
-      image: "./IMG MEMBERSHIP/TREASURE MAKER MEMBERSHIP KIT.png",
+      image: "/images/img/member_bm.png",
     },
     {
       title: "MONTIEZ MEMBERSHIP (BABY MONSTER)",
       price: "Rp.324.000",
-      image: "./IMG MEMBERSHIP/MONTIEZ MEMBERSHIP_BABYMONSTER.png",
+      image: "/images/img/member_akmu.png",
     },
     {
       title: "AKKADEMY MEMBERSHIP",
       price: "Rp.173.000",
-      image: "./IMG MEMBERSHIP/member_bp.png",
+      image: "/images/img/member_bp.png",
     },
     {
       title: "BLINK MEMBERSHIP",
       price: "Rp.363.000",
-      image: "img/member_winner.png",
+      image: "/images/img/member_winner.png",
     },
     {
       title: "BLINK PREMIUM MEMBERSHIP KIT",
       price: "Rp.790.000",
-      image: "./IMG MEMBERSHIP/BLINK PREMIUM MEMBERSHIP KIT.jpg",
+      image: "/images/img/member_trea.png",
     },
     {
       title: "BLINK GENERAL MEMBERSHIP KIT",
       price: "Rp.316.000",
-      image: "./IMG MEMBERSHIP/BLINK GENERAL MEMBERSHIP KIT.jpg",
+      image: "/images/img/member_trea.png",
     },
     {
       title: "INNER CIRCLE MEMBERSHIP",
       price: "Rp.363.000",
-      image: "./IMG MEMBERSHIP/INNER CIRCLE MEMBERSHIP.png",
+      image: "/images/img/member_trea.png",
     },
     {
       title: "INNER CIRCLE MEMBERSHIP KIT 1",
       price: "Rp.253.000",
-      image: "./IMG MEMBERSHIP/INNER CIRCLE MEMBERSHIP KIT 1.png",
+      image: "/images/img/member_trea.png",
     },
   ];
 
@@ -61,49 +61,29 @@ const Membership = () => {
     <>
       <header>
         <div className="navbar">
-          <img
-            src="./IMG MEMBERSHIP/YG.png"
-            alt="YG Entertainment Logo"
-            className="logo"
-          />
+          <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
+
           <nav>
-            <a href="home_logged.html">Home</a>
-            <a href="product.html">Product</a>
-            <a href="community.html">Community</a>
-            <a href="about_us_logged.html">About Us</a>
-            <a href="contact.html">Contact Us</a>
+            <Link to="/HomeLogged">Home</Link>
+            <Link to="/Product">Product</Link>
+            <Link to="/Community">Community</Link>
+            <Link to="/AboutUsLogged">About Us</Link>
+            <Link to="/Contact">Contact Us</Link>
           </nav>
         </div>
-        <button
-          className="user-button btn btn-secondary dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <img
-            src="./IMG MEMBERSHIP/icon.png"
-            alt="User Icon"
-            className="icon-img"
-          />
-          Nurzaba
+
+        <button className="user-button">
+          <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
         </button>
-        <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a className="dropdown-item" href="Cart.html">
-            Cart
-          </a>
-          <a className="dropdown-item" href="poin.html">
-            Poin
-          </a>
-          <a className="dropdown-item" href="transcation.html">
-            Transaction
-          </a>
-          <a className="dropdown-item" href="account.html">
-            Profile
-          </a>
-          <a className="dropdown-item" href="logout.html">
-            Log Out
-          </a>
+
+        <div className="dropdown">
+          <ul>
+            <li><Link to="/Cart">Cart</Link></li>
+            <li><Link to="/Point">Poin</Link></li>
+            <li><Link to="/Transaction">Transaction</Link></li>
+            <li><Link to="/AccountSetting">Profile</Link></li>
+            <li><Link to="#">Log Out</Link></li>
+          </ul>
         </div>
       </header>
 
@@ -131,21 +111,14 @@ const Membership = () => {
 
       <footer>
         <div className="footer-links">
-          <a href="#">Terms of Use</a>
-          <a href="privacy.html">Privacy Policy</a>
-          <a href="cookie.html">Cookie Policy</a>
-          <a href="#">Announcements</a>
+          <Link to="#">Terms of Use</Link>
+          <Link to="/PrivacyPolicy">Privacy Policy</Link>
+          <Link to="/CookiesPolicy">Cookie Policy</Link>
+          <Link to="#">Announcements</Link>
         </div>
         <div className="footer-info">
-          <p>
-            Brand Inc. | CEO: SHABRINA ZAHRA AULIA CALL CENTER (+62)21-3452-1312
-            FAX (+62)21-4242-6565
-          </p>
-          <p>
-            ADDRESS Jl. KH. Ahmad Dahlan Kby. No.14A, RT.2/RW.1, Kramat Pela,
-            Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta
-            12130
-          </p>
+          <p>Brand Inc. | CEO: SHABRINA ZAHRA AULIA CALL CENTER (+62)21-3452-1312 FAX (+62)21-4242-6565</p>
+          <p>ADDRESS Jl. KH. Ahmad Dahlan Kby. No.14A, RT.2/RW.1, Kramat Pela, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12130</p>
           <p>© BRAND COMPANY Inc.</p>
         </div>
       </footer>

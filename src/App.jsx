@@ -27,6 +27,11 @@ import './style/AccountSetting.css';
 import './style/Point.css';
 import './style/Checkout.css';
 import './style/Community.css';
+import './style/Contact.css';
+import './style/Product.css';
+import './style/Lightstick.css';
+import './style/Merchandise.css';
+import './style/Membership.css';
 
 import AboutUs from './AboutUs';
 import AboutusLogged from './AboutusLogged';
@@ -59,6 +64,11 @@ import AccountSetting from './AccountSetting';
 import Point from './Point';
 import Checkout from './Checkout';
 import Community from './Community';
+import Contact from './Contact';
+import Product from './Product';
+import Lightstick from './Lightstick';
+import Merchandise from './Merchandise';
+import Membership from './Membership';
 
 function App() {
   return (
@@ -95,6 +105,11 @@ function App() {
         <Route path='/Point' element={< Point />} />
         <Route path='/Checkout' element={< Checkout />} />
         <Route path='/Community' element={< Community />} />
+        <Route path='/Contact' element={< Contact />} />
+        <Route path='/Product' element={< Product />} />
+        <Route path='/Lightstick' element={< Lightstick />} />
+        <Route path='/Merchandise' element={< Merchandise />} />
+        <Route path='/Membership' element={< Membership />} />
       </Routes>
     </div>
   );

@@ -23,10 +23,10 @@ const HomeLogged = () => {
 
                 <div className="dropdown">
                     <ul>
-                        <li><Link to="/cart">Cart</Link></li>
-                        <li><Link to="#">Poin</Link></li>
-                        <li><Link to="#">Transaction</Link></li>
-                        <li><Link to="#">Profile</Link></li>
+                        <li><Link to="/Cart">Cart</Link></li>
+                        <li><Link to="/Point">Poin</Link></li>
+                        <li><Link to="/Transaction">Transaction</Link></li>
+                        <li><Link to="/AccountSetting">Profile</Link></li>
                         <li><Link to="#">Log Out</Link></li>
                     </ul>
                 </div>
@@ -47,7 +47,7 @@ const HomeLogged = () => {
             <main>
                 <section className="upcoming-news">
                     <h2 style={{ paddingLeft: "2%" }}>Upcoming News</h2>
-                    <Link to="#" className="more-link">More</Link>
+                    <Link to="/NewsDetailLogged" className="more-link">More</Link>
                     <div className="news-grid">
                         <div className="news-item">
                             <img src="/images/img/bp.png" alt="Blackpink Comeback" />
