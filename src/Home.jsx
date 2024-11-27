@@ -20,7 +20,9 @@ const Home = () => {
                 <section className="hero">
                     <img src="/images/img/Introduction.png" alt="Introduction" />
                     <div className="center">
-                        <h1>What is YGentertainment.id?</h1>
+                        <main>
+                            <h1>What is YGentertainment.id?</h1>
+                        </main>
                         <p>Official platform provides original YG Entertainment merchandise from Korea for fans in Indonesia. Find exclusive products and the latest concert schedules for YG artists here!</p>
                     </div>
                 </section>
@@ -33,28 +35,24 @@ const Home = () => {
                     <div className="news-grid">
                         <div className="news-item">
                             <img src="/images/img/bp.png" alt="Blackpink Comeback" onClick={() => window.location.href = 'news.html'} />
-                            <h3>Blackpink Comeback</h3>
                         </div>
                         <div className="news-item">
                             <img src="/images/img/Upcoming.Babymonster.png" alt="BabyMonster" />
-                            <h3>Babymonster</h3>
                         </div>
                     </div>
                 </section>
             </main>
-
+            
             <main>
                 <section className="upcoming-concerts">
                     <h2 style={{ paddingLeft: "2%" }}>Upcoming Concerts</h2>
-                    <a href="more_concert.html" className="more-link">More</a>
+                   <Link to="/Concert" className="more-link">More</Link>
                     <div className="concert-grid">
                         <div className="concert-item">
                             <img src="/images/img/Poster Konser Treasure.png" alt="TREASURE World Tour Poster" />
-                            <h3>TREASURE World Tour</h3>
                         </div>
                         <div className="concert-item">
                             <img src="/images/img/Poster Konser BabyMonster.png" alt="SE U MARCH Poster" />
-                            <h3>SE U MARCH</h3>
                         </div>
                     </div>
                 </section>

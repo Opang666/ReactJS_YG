@@ -10,14 +10,14 @@ const AboutUs = () => {
                     <nav className="nav-links">
                         <Link to="/Home">Home</Link>
                         <Link to="/about-us">About Us</Link>
-                        <Link to="/login" className="login-button">Log In</Link>
+                        <Link to="/Login" className="login-button">Log In</Link>
                     </nav>
                 </div>
             </header>
-
+            
             <main>
                 <section className="about">
-                    <h1>About YGEntertainment.id</h1>
+                    <h1 className="isi">About YGEntertainment.id</h1>
                     <div className="content">
                         <div className="mission">
                             <h2>Mission</h2>
