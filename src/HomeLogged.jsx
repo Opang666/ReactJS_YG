@@ -77,7 +77,7 @@ const HomeLogged = () => {
             <main>
                 <section className="new-merch">
                     <h2 style={{ paddingLeft: "2%" }}>New Merch</h2>
-                    <Link to="#" className="more-link">More</Link>
+                    <Link to="/Merchandise" className="more-link">More</Link>
                     <div className="merch-grid">
                         <div className="merch-item">
                             <img src="/images/img/Love Pillow.png" alt="Love Pillow" />

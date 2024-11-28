@@ -7,33 +7,36 @@ const Tracking = () => {
             <header>
                 <div className="navbar">
                     <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
-                        <nav>
-                            <Link to="/HomeLogged">Home</Link>
-                            <Link to="/Product">Product</Link>
-                            <Link to="/Community">Community</Link>
-                            <Link to="/AboutUsLogged">About Us</Link>
-                            <Link to="/Contact">Contact Us</Link>
-                        </nav>
+
+                    <nav>
+                        <Link to="/HomeLogged">Home</Link>
+                        <Link to="/Product">Product</Link>
+                        <Link to="/Community">Community</Link>
+                        <Link to="/AboutUsLogged">About Us</Link>
+                        <Link to="/Contact">Contact Us</Link>
+                    </nav>
                 </div>
+
                 <button className="user-button">
                     <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
                 </button>
+
                 <div className="dropdown">
                     <ul>
-                        <li><a href="Cart.html">Cart</a></li>
-                        <li><a href="#">Poin</a></li>
-                        <li><a href="#">Transaction</a></li>
-                        <li><a href="#">Profile</a></li>
-                        <li><a href="#">Log Out</a></li>
+                        <li><Link to="/Cart">Cart</Link></li>
+                        <li><Link to="/Point">Poin</Link></li>
+                        <li><Link to="/Transaction">Transaction</Link></li>
+                        <li><Link to="/AccountSetting">Profile</Link></li>
+                        <li><Link to="#">Log Out</Link></li>
                     </ul>
                 </div>
             </header>
 
             <div className="container">
                 <div className="back-title">
-                    <a href="detail_item.html">
+                    <Link to="/DetailsItem">
                         <img src="/images/img/kembali.png" alt="Back to Transaction" className="back-button" />
-                    </a>
+                    </Link>
                     <h1>Details Tracking</h1>
                 </div>
 

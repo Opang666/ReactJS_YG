@@ -56,7 +56,7 @@ const ConcertLogged = () => {
                     <main className="content">
                         <div
                             className="event-grid"
-                            onClick={() => (window.location.href = 'DetailConcert')}
+                            onClick={() => (window.location.href = 'DetailConcertLogged')}
                         >
                             <div className="event">
                                 <img src="/images/img/konser_seventeen.png" alt="Konser Seventeen" />

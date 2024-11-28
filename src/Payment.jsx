@@ -5,29 +5,32 @@ const Payment = () => {
   return (
     <>
       <header>
-        <div className="navbar">
-          <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
-          <nav>
-            <Link to="/HomeLogged">Home</Link>
-            <Link to="/Product">Product</Link>
-            <Link to="/Community">Community</Link>
-            <Link to="/AboutUsLogged">About Us</Link>
-            <Link to="/Contact">Contact Us</Link>
-          </nav>
-        </div>
-        <button className="user-button">
-          <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
-        </button>
-        <div className="dropdown">
-          <ul>
-            <li><Link to="/Cart">Cart</Link></li>
-            <li><a href="#">Poin</a></li>
-            <li><a href="#">Transaction</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Log Out</a></li>
-          </ul>
-        </div>
-      </header>
+                <div className="navbar">
+                    <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
+
+                    <nav>
+                        <Link to="/HomeLogged">Home</Link>
+                        <Link to="/Product">Product</Link>
+                        <Link to="/Community">Community</Link>
+                        <Link to="/AboutUsLogged">About Us</Link>
+                        <Link to="/Contact">Contact Us</Link>
+                    </nav>
+                </div>
+
+                <button className="user-button">
+                    <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
+                </button>
+
+                <div className="dropdown">
+                    <ul>
+                        <li><Link to="/Cart">Cart</Link></li>
+                        <li><Link to="/Point">Poin</Link></li>
+                        <li><Link to="/Transaction">Transaction</Link></li>
+                        <li><Link to="/AccountSetting">Profile</Link></li>
+                        <li><Link to="#">Log Out</Link></li>
+                    </ul>
+                </div>
+            </header>
 
       <main className="payment-content">
         <h2>Payment</h2>
@@ -36,14 +39,14 @@ const Payment = () => {
           <div className="account-number">4353-5406-3406-4237-5463</div>
           <p className="validity-info">
             <img
-              src="/img/warning.png"
+              src="/images/img/warning.png"
               alt="Warning"
               style={{ width: "16px", verticalAlign: "middle", marginRight: "5px" }}
             />
             Virtual Account is only valid for 1 hour
           </p>
           <div className="button-group">
-            <button className="copy-button" onClick={() => window.location.href = 'payment_2.html'}>
+            <button className="copy-button" onClick={() => window.location.href = 'Payment2'}>
               Copy
             </button>
             <button className="close-button">Close</button>

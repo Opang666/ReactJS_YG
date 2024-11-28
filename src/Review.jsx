@@ -5,37 +5,39 @@ const Review = () => {
     return (
         <>
             <div>
-                <header>
-                    <div className="navbar">
-                        <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
-                        <nav>
-                            <Link to="/HomeLogged">Home</Link>
-                            <Link to="/Product">Product</Link>
-                            <Link to="/Community">Community</Link>
-                            <Link to="/AboutUsLogged">About Us</Link>
-                            <Link to="/Contact">Contact Us</Link>
-                        </nav>
-                    </div>
-                    <button className="user-button">
-                        <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
-                    </button>
-        
-                    <div className="dropdown">
-                        <ul>
-                            <li><a href="Cart.html">Cart</a></li>
-                            <li><a href="poin.html">Poin</a></li>
-                            <li><a href="transaction.html">Transaction</a></li>
-                            <li><a href="account.html">Profile</a></li>
-                            <li><a href="#">Log Out</a></li>
-                        </ul>
-                    </div>
-                </header>
+            <header>
+                <div className="navbar">
+                    <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
+
+                    <nav>
+                        <Link to="/HomeLogged">Home</Link>
+                        <Link to="/Product">Product</Link>
+                        <Link to="/Community">Community</Link>
+                        <Link to="/AboutUsLogged">About Us</Link>
+                        <Link to="/Contact">Contact Us</Link>
+                    </nav>
+                </div>
+
+                <button className="user-button">
+                    <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
+                </button>
+
+                <div className="dropdown">
+                    <ul>
+                        <li><Link to="/Cart">Cart</Link></li>
+                        <li><Link to="/Point">Poin</Link></li>
+                        <li><Link to="/Transaction">Transaction</Link></li>
+                        <li><Link to="/AccountSetting">Profile</Link></li>
+                        <li><Link to="#">Log Out</Link></li>
+                    </ul>
+                </div>
+            </header>
 
                 <div className="container">
                     <div className="back-title">
-                        <a href="Transaction.html">
+                        <Link to="/Transaction">
                             <img src="/images/img/kembali.png" alt="Back to Transaction" className="back-button" />
-                        </a>
+                        </Link>
                         <h1>Review</h1>
                     </div>
 
