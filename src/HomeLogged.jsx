@@ -1,7 +1,30 @@
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./style/HomeLogged.css"
 
 const HomeLogged = () => {
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+    // Toggle dropdown visibility
+    const toggleDropdown = () => {
+        setIsDropdownOpen((prev) => !prev);
+    };
+
+    // Close dropdown if clicking outside
+    useEffect(() => {
+        const handleOutsideClick = (event) => {
+            const dropdown = document.querySelector('.dropdown');
+            const userButton = document.querySelector('.user-button');
+            if (dropdown && userButton && !dropdown.contains(event.target) && !userButton.contains(event.target)) {
+                setIsDropdownOpen(false);
+            }
+        };
+
+        window.addEventListener("click", handleOutsideClick);
+        return () => {
+            window.removeEventListener("click", handleOutsideClick);
+        };
+    }, []);
+
     return (
         <>
             <header>
@@ -17,11 +40,11 @@ const HomeLogged = () => {
                     </nav>
                 </div>
 
-                <button className="user-button">
+                <button className="user-button" onClick={toggleDropdown}>
                     <img src="/images/img/profile.png" alt="User Icon" className="icon-img" /> Nurzaba
                 </button>
 
-                <div className="dropdown">
+                <div className={`dropdown ${isDropdownOpen ? "show" : ""}`}>
                     <ul>
                         <li><Link to="/Cart">Cart</Link></li>
                         <li><Link to="/Point">Poin</Link></li>
@@ -88,7 +111,7 @@ const HomeLogged = () => {
                     </div>
                 </section>
             </main>
-            
+
             <main>
                 <section className="artist-section">
                     <h2 style={{ paddingLeft: "2%" }}>Looking for artists?</h2>

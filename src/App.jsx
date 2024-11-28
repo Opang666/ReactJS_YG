@@ -33,6 +33,7 @@ import './style/Lightstick.css';
 import './style/Merchandise.css';
 import './style/Membership.css';
 import './style/Cart.css';
+import './style/News.css';
 
 import AboutUs from './AboutUs';
 import AboutusLogged from './AboutusLogged';
@@ -71,6 +72,7 @@ import Lightstick from './Lightstick';
 import Merchandise from './Merchandise';
 import Membership from './Membership';
 import Cart from './Cart';
+import News from './News';
 
 function App() {
   return (
@@ -113,6 +115,7 @@ function App() {
         <Route path='/Merchandise' element={< Merchandise />} />
         <Route path='/Membership' element={< Membership />} />
         <Route path='/Cart' element={< Cart />} />
+        <Route path='/News' element={< News />} />
       </Routes>
     </div>
   );

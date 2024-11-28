@@ -30,11 +30,7 @@ const Cart = () => {
     <div>
       <header>
             <div className="navbar">
-                    <img
-                        src="/images/img/logo_YG.png"
-                        alt="YG Entertainment Logo"
-                        className="logo"
-                    />
+                    <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
 
                     <nav>
                         <Link to="/HomeLogged">Home</Link>
@@ -76,7 +72,7 @@ const Cart = () => {
             </header>
 
             
-      <main className="cart">
+      <div className="cart">
         <h1>Cart</h1>
         <p className="cart-info">
           <img src="/images/img/warning.png" alt="Info Icon" />
@@ -108,7 +104,20 @@ const Cart = () => {
           <span id="total-price">Rp0</span>
           <Link to="/ProductDetail" className="checkout-btn"> Check Out</Link> 
         </div>
-      </main>
+      </div>
+      <footer>
+                <div className="footer-links">
+                    <a href="#">Terms of Use</a>
+                    <Link to="/PrivacyPolicy">Privacy Policy</Link>
+                    <Link to="/CookiesPolicy">Cookie Policy</Link>
+                    <a href="#">Announcements</a>
+                </div>
+                <div className="footer-info">
+                    <p>Brand Inc. | CEO: SHABRINA ZAHRA AULIA CALL CENTER (+62)21-3452-1312 FAX (+62)21-4242-6565</p>
+                    <p>ADDRESS Jl. KH. Ahmad Dahlan Kby. No.14A, RT.2/RW.1, Kramat Pela, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12130</p>
+                    <p>© BRAND COMPANY Inc.</p>
+                </div>
+            </footer>
     </div>
   );
 };

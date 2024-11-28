@@ -28,7 +28,7 @@ const Payment2 = () => {
                 </div>
             </header> 
 
-            <main className="payment-content">
+            <div className="payment-content">
                 <h2>Payment</h2>
                     <div className="payment-box">
                         <h3>Payment Confirm</h3>
@@ -37,7 +37,7 @@ const Payment2 = () => {
                         <img src="/images/img/sukses.png" className="animated-image" alt="Success" />
                     </div>
                     <h1 id="point">+350 Point</h1>
-            </main>
+            </div>
 
             <footer>
                 <div className="footer-links">

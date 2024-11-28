@@ -32,17 +32,14 @@ const Payment = () => {
                 </div>
             </header>
 
-      <main className="payment-content">
+      <div className="payment-content">
         <h2>Payment</h2>
         <div className="payment-box">
           <h3>Virtual Account</h3>
           <div className="account-number">4353-5406-3406-4237-5463</div>
           <p className="validity-info">
             <img
-              src="/images/img/warning.png"
-              alt="Warning"
-              style={{ width: "16px", verticalAlign: "middle", marginRight: "5px" }}
-            />
+              src="/images/img/warning.png" alt="Warning" style={{ width: "16px", verticalAlign: "middle", marginRight: "5px" }} />
             Virtual Account is only valid for 1 hour
           </p>
           <div className="button-group">
@@ -52,7 +49,7 @@ const Payment = () => {
             <button className="close-button">Close</button>
           </div>
         </div>
-      </main>
+      </div>
 
       <footer>
         <div className="footer-links">

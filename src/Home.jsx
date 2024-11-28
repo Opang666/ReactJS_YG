@@ -4,7 +4,6 @@ import "./style/Home.css";
 const Home = () => {
     return (
         <>
-        <body>
             <header>
                 <div className="navbar">
                     <img src="/images/img/logo_YG.png" alt="YG Entertainment Logo" className="logo" />
@@ -31,7 +30,7 @@ const Home = () => {
             <main>
                 <section className="upcoming-news">
                     <h2 style={{ paddingLeft: "2%" }}>Upcoming News</h2>
-                    <a href="#" className="more-link">More</a>
+                    <Link to="/News" className="more-link">More</Link>
                     <div className="news-grid">
                         <div className="news-item">
                             <img src="/images/img/bp.png" alt="Blackpink Comeback" onClick={() => window.location.href = 'news.html'} />
@@ -119,7 +118,6 @@ const Home = () => {
                     <p>© BRAND COMPANY Inc.</p>
                 </div>
             </footer>
-        </body>
         </>
     );
 };
